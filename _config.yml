@@ -1,0 +1,21 @@
+title: "On mechanisms"
+description: "Notes on mathematics."
+author: "KEMONOYA"
+
+url: "https://kemonoya.github.io"
+baseurl: ""
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
